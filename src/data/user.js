@@ -1,6 +1,12 @@
-const username = "Liza";
-const city = "New York";
+import React from "react";
+import About from "./src/components/About";
+import { username, city, image } from "./username";
 
-const image = "https://i.imgur.com/mV8PQxj.gif";
+export { username, city, About, image };
 
-// export all three variables as named exports
+
+function MyComponent() {
+  return <div>Hello, World!</div>;
+}
+
+export default MyComponent;
